@@ -10,10 +10,10 @@
 
 #define BUFFER_SIZE 256
 
-void execute(char* input);
-void prompt();
-char* get_line();
-char* strtok_fxn(char* command);
-char* print(char *argv);
+void execute(char *input);
+void prompt(void);
+char *get_line(void);
+char *strtok_fxn(char *command);
+char *print(char *argv);
 
 #endif
