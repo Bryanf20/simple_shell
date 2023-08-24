@@ -34,7 +34,7 @@ void execute(char *input)
 	else if (child_pid == 0)
 	{
 		execlp(input, input, NULL);
-		fprintf(stderr, "command '%s' not avialabe\n", input);
+		print("No such file or directory");
 		exit(EXIT_FAILURE);
 	}
 	els
